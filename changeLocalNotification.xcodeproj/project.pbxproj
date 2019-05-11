@@ -12,6 +12,7 @@
 		413FE3FC22873E1C004C767C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413FE3FA22873E1C004C767C /* Main.storyboard */; };
 		413FE3FE22873E1E004C767C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413FE3FD22873E1E004C767C /* Assets.xcassets */; };
 		413FE40122873E1E004C767C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 413FE3FF22873E1E004C767C /* LaunchScreen.storyboard */; };
+		413FE40922873E75004C767C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FE40822873E75004C767C /* NotificationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		413FE3FD22873E1E004C767C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		413FE40022873E1E004C767C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		413FE40222873E1E004C767C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		413FE40822873E75004C767C /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				413FE3F622873E1C004C767C /* AppDelegate.swift */,
 				413FE3F822873E1C004C767C /* ViewController.swift */,
+				413FE40822873E75004C767C /* NotificationService.swift */,
 				413FE3FA22873E1C004C767C /* Main.storyboard */,
 				413FE3FD22873E1E004C767C /* Assets.xcassets */,
 				413FE3FF22873E1E004C767C /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				413FE3F922873E1C004C767C /* ViewController.swift in Sources */,
+				413FE40922873E75004C767C /* NotificationService.swift in Sources */,
 				413FE3F722873E1C004C767C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
